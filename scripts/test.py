@@ -50,10 +50,23 @@ path = (
     / "kuebbing_etal_2025.yaml"
 )
 
-with open(path) as stream:
-    try:
-        data = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+FILES = (Path(__file__).resolve().parent.parent / "inputs" / "datasets").glob("*.yaml")
 
-print(json.dumps(data, indent=4, default=str))
+list_of_objects = []
+
+for file in FILES:
+    with open(file) as stream:
+        try:
+            data = yaml.safe_load(stream)
+            list_of_objects.append(data)
+        except yaml.YAMLError as exc:
+            print(exc)
+
+output_path = (
+    Path(__file__).resolve().parent.parent / "catalogs" / "dataset-catalog.json"
+)
+
+with open(output_path, "w") as f:
+    json.dump(list_of_objects, f, indent=4, default=str)
+
+print(json.dumps(list_of_objects, indent=4, default=str))
