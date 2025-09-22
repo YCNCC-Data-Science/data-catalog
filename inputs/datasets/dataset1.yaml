@@ -1,0 +1,42 @@
+id: sst_oisst_v2
+title: NOAA Optimum Interpolation SST v2
+description: A daily, 0.25° global SST dataset blending satellite and in situ observations.
+
+creators:
+  - name: NOAA National Centers for Environmental Information
+maintainers:
+  - name: John Smith
+    email: john.smith@noaa.gov
+    github: jsmith
+
+publication_date: "2022-03-15"
+version: v2.1
+keywords: [SST, climate, NOAA]
+tags: [ocean, reanalysis]
+
+identifiers:
+  doi: "10.7289/V5SQ8XB5"
+  url: "https://doi.org/10.7289/V5SQ8XB5"
+
+access:
+  landing_page: "https://www.ncei.noaa.gov/products/optimum-interpolation-sst"
+  download_link: "https://downloads.noaa.gov/oisst/"
+  license: "Public Domain"
+  github_repo: "https://github.com/noaa/oisst"
+
+related_publications:
+  - title: "Reynolds et al. (2002)"
+    doi: "10.1175/1520-0442(2002)015<1609:AIISAS>2.0.CO;2"
+
+geospatial_coverage:
+  description: Global oceans
+  bbox: [-180, -90, 180, 90]
+
+temporal_coverage:
+  start_date: "1981-09-01"
+  end_date: "2023-12-31"
+
+formats: [NetCDF]
+size: "5 TB"
+provenance: Derived from AVHRR satellite and buoy data.
+notes: Widely used for climate monitoring.
