@@ -1,30 +1,44 @@
+---
 id: tsao_etal_2025
-title: A spatially explicit dataset of agriculture liming across the contiguous United States
+title: A spatially explicit dataset of agriculture liming across the contiguous
+  United States
 description: >
-  The dataset consists of spatially explicit agricultural lime application across the contiguous United States.
-  The dataset comprises state-level data for 1930-1950 and a more detailed county-level dataset for 1954-1987.
+  The dataset consists of spatially explicit agricultural lime
+  application across the contiguous United States. The dataset comprises
+  state-level data for 1930-1950 and a more detailed county-level dataset for
+  1954-1987.
 publication_date: 2025-09-01
 version: v1
 tags:
   - liming
   - agriculture
-
 license:
   name: Creative Commons Attribution 4.0 International (CC BY 4.0)
   url: https://creativecommons.org/licenses/by/4.0/
-
 maintainers:
   - name: Samuel Shou-En Tsao
     email: samuel.tsao@yale.edu
     image_url: https://geospatial.yale.edu/sites/default/files/styles/3_2_640/public/2024-09/Samuel%20Tsao.png?h=09e26447&itok=OpFZCI9w
-
 data_access:
   doi: 10.5281/zenodo.15758275
   url: https://doi.org/10.5281/zenodo.15758275
-
 publications:
-  - authors: Samuel Shou-En Tsao, Tim Jesper Surhoff, Giuseppe Amatulli, Maya Almarez, Jon Gewirtzman, Beck Woollen, Eric W. Slessarev, James E. Saiers, Christopher T. Reinhard, Shuang Zhang, Noah J. Planavsky, Peter A. Raymond
-    publication_date: 2025-09-01
-    title: A spatially explicit dataset of agriculture liming across the contiguous United States [Preprint]
+  - authors:
+      - Samuel Shou-En Tsao
+      - Tim Jesper Surhoff
+      - Giuseppe Amatulli
+      - Maya Almarez
+      - Jon Gewirtzman
+      - Beck Woollen
+      - Eric W. Slessarev
+      - James E. Saiers
+      - Christopher T. Reinhard
+      - Shuang Zhang
+      - Noah J. Planavsky
+      - Peter A. Raymond
+    year: 2025
+    title:
+      A spatially explicit dataset of agriculture liming across the contiguous
+      United States [Preprint]
     journal: Earth System Science Data Discussions
     doi: 10.5194/essd-2025-411

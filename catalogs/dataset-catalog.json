@@ -26,8 +26,21 @@
         },
         "publications": [
             {
-                "authors": "Samuel Shou-En Tsao, Tim Jesper Surhoff, Giuseppe Amatulli, Maya Almarez, Jon Gewirtzman, Beck Woollen, Eric W. Slessarev, James E. Saiers, Christopher T. Reinhard, Shuang Zhang, Noah J. Planavsky, Peter A. Raymond",
-                "publication_date": "2025-09-01",
+                "authors": [
+                    "Samuel Shou-En Tsao",
+                    "Tim Jesper Surhoff",
+                    "Giuseppe Amatulli",
+                    "Maya Almarez",
+                    "Jon Gewirtzman",
+                    "Beck Woollen",
+                    "Eric W. Slessarev",
+                    "James E. Saiers",
+                    "Christopher T. Reinhard",
+                    "Shuang Zhang",
+                    "Noah J. Planavsky",
+                    "Peter A. Raymond"
+                ],
+                "year": 2025,
                 "title": "A spatially explicit dataset of agriculture liming across the contiguous United States [Preprint]",
                 "journal": "Earth System Science Data Discussions",
                 "doi": "10.5194/essd-2025-411"
@@ -62,8 +75,14 @@
         },
         "publications": [
             {
-                "authors": "Sara Kuebbing, Lisa Eash, Mark Bradford, Emily Oldfield, Stephen Ogle",
-                "publication_date": "2025-03-18",
+                "authors": [
+                    "Sara Kuebbing",
+                    "Lisa Eash",
+                    "Mark Bradford",
+                    "Emily Oldfield",
+                    "Stephen Ogle"
+                ],
+                "year": 2025,
                 "title": "Non-equivalent carbon crediting across agricultural land management protocols (Version 1) [Preprint]",
                 "journal": "Research Square",
                 "doi": "10.21203/rs.3.rs-6179173/v1"

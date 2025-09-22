@@ -6,7 +6,6 @@ import json
 from pathlib import Path
 
 
-# need code to convert / to %2F
 class License(BaseModel):
     name: str
     url: str
@@ -16,6 +15,7 @@ class Maintainer(BaseModel):
     name: str
     email: str
     image_url: Optional[str] = None
+    github: Optional[str] = None
 
 
 class DataAccess(BaseModel):
@@ -24,10 +24,12 @@ class DataAccess(BaseModel):
 
 
 class Publication(BaseModel):
-    author: str
-    publication_date: str
+    author: List[str]
+    year: str
     title: str
     journal: str
+    volume: Optional[str] = None
+    article: Optional[str] = None
     doi: str
 
 
@@ -37,10 +39,13 @@ class Dataset(BaseModel):
     description: str
     publication_date: str
     version: str
-    tags: List[str]
+    tags: Optional[List[str]] = None
     license: License
     maintainers: List[Maintainer]
     publications: List[Publication]
+    thumbnail: Optional[str] = None
+    color: Optional[str] = None
+    slug: Optional[str] = None
 
 
 path = (

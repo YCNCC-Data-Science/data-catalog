@@ -1,32 +1,36 @@
+---
 id: kuebbing_etal_2025
-title: Synthetic dataset of corn/soybean fields in Midwest US for biogeochemical model analysis
+title: Synthetic dataset of corn/soybean fields in Midwest US for biogeochemical
+  model analysis
 description: >
-  A standardized synthetic dataset of ~5000 corn-soy fields in the U.S. Midwest 
-  and quantified potential C credits for a project in which no-till was adopted 
-  and a project in which both no-till and cover crops were adopted.
+  A standardized synthetic dataset of ~5000 corn-soy fields in the
+  U.S. Midwest  and quantified potential C credits for a project in which
+  no-till was adopted  and a project in which both no-till and cover crops were
+  adopted.
 publication_date: 2025-03-07
 version: v2.1
 tags:
   - MRV
   - agriculture
   - carbon crediting
-
 license:
   name: Creative Commons Zero (CC0)
   url: https://creativecommons.org/publicdomain/zero/1.0/
-
 maintainers:
   - name: Sara Kuebbing
     email: Sara.Kuebbing@yale.edu
     image_url: https://images.squarespace-cdn.com/content/v1/55929c06e4b05fd28f9c83aa/10893d91-fed9-44c6-a440-ac844fe7a1f2/Pitt+2020+Sara+in+field.JPG?format=2500w
-
 data_access:
   doi: 10.5061/dryad.15dv41p55
   url: https://doi.org/10.5061/dryad.15dv41p55
-
 publications:
-  - authors: Sara Kuebbing, Lisa Eash, Mark Bradford, Emily Oldfield, Stephen Ogle
-    publication_date: 2025-03-18
+  - authors:
+      - Sara Kuebbing
+      - Lisa Eash
+      - Mark Bradford
+      - Emily Oldfield
+      - Stephen Ogle
+    year: 2025
     title: Non-equivalent carbon crediting across agricultural land management protocols (Version 1) [Preprint]
     journal: Research Square
     doi: 10.21203/rs.3.rs-6179173/v1
