@@ -1,9 +1,9 @@
-# from schemas.dataset_schema import Creator
 import yaml
 import json
 from pathlib import Path
 
-FILES = (Path(__file__).resolve().parent.parent / "inputs" / "models").glob("*.yaml")
+
+FILES = (Path(__file__).resolve().parent.parent / "inputs" / "datasets").glob("*.yaml")
 
 list_of_objects = []
 
@@ -15,7 +15,9 @@ for file in FILES:
         except yaml.YAMLError as exc:
             print(exc)
 
-output_path = Path(__file__).resolve().parent.parent / "catalogs" / "model-catalog.json"
+output_path = (
+    Path(__file__).resolve().parent.parent / "catalogs" / "dataset-catalog.json"
+)
 
 with open(output_path, "w") as f:
     json.dump(list_of_objects, f, indent=4, default=str)
